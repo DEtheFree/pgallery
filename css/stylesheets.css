@@ -29,7 +29,7 @@ h1 {
 }
 
 #container {
-  background-image: url("../img/backround.jpg"); /* change background */
+  background-image: url("../img/wall.jpg"); /* change background */
   min-height: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -52,3 +52,10 @@ p {
 
 }
 
+.site__title {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
